@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tl="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:orientation="vertical"
+    tl:context="com.blogspot.programer27android.copasqenedrive.Dasbord">
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:orientation="vertical"
+        a:layout_gravity="center_vertical"
+        a:layout_centerVertical="true"
+        a:layout_alignParentLeft="true"
+        a:layout_alignParentStart="true">
+    <Button
+        a:id="@+id/btsign"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:text="@string/Signup"
+        a:onClick="signup"
+        a:layout_gravity="center_vertical"
+        tl:ignore="MissingConstraints"
+        app:layout_constraintTop_toTopOf="parent"
+        a:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        a:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        a:layout_width="match_parent"
+        a:id="@+id/btlogin"
+        a:layout_height="wrap_content"
+        a:layout_marginTop="8dp"
+        a:text="@string/Login"
+        a:onClick="login"
+        a:layout_gravity="center_vertical"
+        app:layout_constraintTop_toBottomOf="@+id/btsign"
+        tl:ignore="MissingConstraints"
+        app:layout_constraintBottom_toBottomOf="parent"
+        a:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.009"
+        a:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        a:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        a:layout_width="match_parent"
+        a:id="@+id/btdatauser"
+        a:layout_height="wrap_content"
+        a:layout_marginTop="8dp"
+        a:text="@string/data"
+        a:onClick="datauser"
+        a:layout_gravity="center_vertical"
+        app:layout_constraintTop_toBottomOf="@+id/btlogin"
+        tl:ignore="MissingConstraints"
+        app:layout_constraintBottom_toBottomOf="parent"
+        a:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.009"
+        a:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        a:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    </LinearLayout>
+</RelativeLayout>

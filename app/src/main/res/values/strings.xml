@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CRUD</string>
+    <string name="Signup">Sign Up</string>
+    <string name="Login">Login</string>
+    <string name="id">Enter your Name</string>
+    <string name="email">Enter your E-Mail</string>
+    <string name="password">Enter your Password</string>
+    <string name="lupapasswoord">Lupa Password Saya</string>
+    <string name="sayabelumpunyaakun">Saya Belum Punya Akun</string>
+    <string name="data">Data User</string>
+</resources>
